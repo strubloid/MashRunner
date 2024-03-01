@@ -1,0 +1,47 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/home/zero/UnrealGames/MashRunner/Content/Maps/MAP_Debug.umap",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Background/T_Field.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Goal/T_Goal_Ripped.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Goal/T_Goal_Connected.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Runner/T_Runner.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Footsteps/S_Step_2.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Footsteps/S_Step_1.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Runner/FB_Runner_IDLE.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Runner/FB_Runner_Run.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Blueprints/BP_Runner.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_0.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Background/T_Field_Sprite.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Goal/T_Goal_Connected_Sprite.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Goal/T_Goal_Ripped_Sprite.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_1.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_2.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_3.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_4.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_5.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_6.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_7.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_8.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_9.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Input/Actions/AI_PowerLeft.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Input/Actions/AI_PowerRight.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Input/IMC_Runner.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Blueprints/GM_Runner.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Blueprints/Enums/E_Input.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Curves/C_SpeedIncreaseGraph.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Widget/SpeedCalculator.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Widget/WID_Speed.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Blueprints/WID_CharacterSpeed.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Blueprints/WID_Background_Options.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Curves/C_SpeedDecreaseGraph.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Sounds/Footsteps/S_Step_1.uasset",
+				"/home/zero/UnrealGames/MashRunner/Content/Sounds/Footsteps/S_Step_2.uasset"
+			]
+		}
+	]
+}
