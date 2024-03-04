@@ -1,0 +1,36 @@
+Generating report for minidump
+
+Application version 5.3.2.0
+ ... built from changelist 29314046
+
+OS version Linux 6.5.0-21-generic (network name: strubloid)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libc.so.6!UnknownFunction(0x451a5)
+libc.so.6!exit(+0x1f)
+libX11.so.6!_XDefaultIOError(+0x62)
+libX11.so.6!_XIOError(+0x62)
+libX11.so.6!_XEventsQueued(+0x84)
+libX11.so.6!XCheckIfEvent(+0x106)
+libUnrealEditor-ApplicationCore.so!X11_PumpEvents [/SDL-gui-backend/src/video/x11/SDL_x11events.c:1829]
+libUnrealEditor-ApplicationCore.so!SDL_PumpEventsInternal [/SDL-gui-backend/src/events/SDL_events.c:858]
+libUnrealEditor-ApplicationCore.so!SDL_WaitEventTimeout_REAL [/SDL-gui-backend/src/events/SDL_events.c:1037]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:440]
+libUnrealEditor-Engine.so!UEngine::UpdateTimeAndHandleMaxTickRate() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Engine/Private/UnrealEngine.cpp:2622]
+UnrealEditor!FEngineLoop::Tick() [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5676]
+UnrealEditor!GuardedMain(char16_t const*) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/mnt/horde/++UE5/Sync/Engine/Source/./Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x2814f)
+libc.so.6!__libc_start_main(+0x88)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
